@@ -1,7 +1,7 @@
 # Price-Prediction-AirBNB-Berlin
 # AirBNB Berlin
 
-![Data Frame](Picture1.png)
+![Data Frame](berliner_dom.jpg)
 
 ## Background Information 
 
