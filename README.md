@@ -1,6 +1,8 @@
 # Price-Prediction-AirBNB-Berlin
 # AirBNB Berlin
 
+![Data Frame](Picture1.png)
+
 ## Background Information 
 
 Berlin is one of the most favourable city to visit in Europe. There are lot of tourist attractions , not only for adults, but also for children. AirBNB want therefore expanding business by targeting not only family segment, but also groups (each includes 3 people or more). Assuming that, family/group spend more than solo traveler, it is possibly good chance to bring company more capital. it is an excitement and real good opportunity as well to figure out more about it.
