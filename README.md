@@ -17,7 +17,7 @@ In order to optimizing business expansion process, it is bigger size of accommod
 - Are these selected features affecting the accommodation price?
 - Which type of room are most to be found in each neighbourhood group?
 - Is the neighbourhood of the most expensive accommodation located in the same as its neighbourhood group (district) ?
-- Does the sightseeing area have impact on the price?
+- Does the sightseeing area have impact on the price and accommodations distribution?
 
 
 ## Business Goals
@@ -30,3 +30,6 @@ In order to optimizing business expansion process, it is bigger size of accommod
 
 
 The data behind the Inside Airbnb site is sourced from publicly available information from the Airbnb site.
+
+
+Data Source: http://insideairbnb.com/get-the-data.html
