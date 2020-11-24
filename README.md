@@ -1,4 +1,4 @@
-# Price-Prediction-AirBNB-Berlin
+# Price-Suggestion-AirBNB-Berlin
 # AirBNB Berlin
 
 ![Data Frame](berliner_dom.jpg)
@@ -23,7 +23,7 @@ In order to optimizing business expansion process, it is bigger size of accommod
 ## Business Goals
 
 - Giving advices to our business development team to grow our business in favorable area hence with good price.
-- Building a model to predict accommodation price in best suitable district (neighbourhood group) for upcoming accommodation.
+- Building a model to suggest accommodation price in best suitable district (neighbourhood group) for upcoming accommodation.
 
 ### **By analyzing publicly available information about a city's Airbnb's listings, Inside Airbnb provides filters and key metrics so you can see how Airbnb is being used to compete with the residential housing market.**
 
