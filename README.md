@@ -33,3 +33,12 @@ The data behind the Inside Airbnb site is sourced from publicly available inform
 
 
 Data Source: http://insideairbnb.com/get-the-data.html
+
+
+## Biggest Credit to
+
+1. God Almighty
+2. Mi Padre, mi Madre, & mi Familia
+3. My mentor Mas Khumaeni (best mentor ever)
+4. My whole fellow Purwadhika brothers & sisters 
+5. Etc.
