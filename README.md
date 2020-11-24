@@ -46,7 +46,7 @@ Data Source: http://insideairbnb.com/get-the-data.html
 
 1. God Almighty
 
-2. Mi Padre, mi Madre, & mi Familia
+2. Mi Familia
 
 3. My mentor Mas Khumaeni (best mentor ever)
 
