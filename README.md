@@ -36,7 +36,8 @@ The data behind the Inside Airbnb site is sourced from publicly available inform
 Data Source: http://insideairbnb.com/get-the-data.html
 
 
-## Biggest Credit to
+## Shout out and Biggest Credit to them, who have been very supportive:
+
 
 1. God Almighty
 
