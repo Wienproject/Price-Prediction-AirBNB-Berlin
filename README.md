@@ -27,6 +27,7 @@ In order to optimizing business expansion process, it is bigger size of accommod
 
 ### **By analyzing publicly available information about a city's Airbnb's listings, Inside Airbnb provides filters and key metrics so you can see how Airbnb is being used to compete with the residential housing market.**
 
+![Data Frame](berlinguide.jpg)
 
 
 The data behind the Inside Airbnb site is sourced from publicly available information from the Airbnb site.
