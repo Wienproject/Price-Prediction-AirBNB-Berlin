@@ -39,7 +39,15 @@ Data Source: http://insideairbnb.com/get-the-data.html
 ## Biggest Credit to
 
 1. God Almighty
+
 2. Mi Padre, mi Madre, & mi Familia
+
 3. My mentor Mas Khumaeni (best mentor ever)
-4. My whole fellow Purwadhika brothers & sisters 
-5. Etc.
+
+4. My fellow Purwadhika brothers & sisters 
+
+5. Keith Galli
+
+6. Krish Naik
+
+7. Etc.
