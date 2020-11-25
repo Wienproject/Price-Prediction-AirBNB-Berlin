@@ -48,7 +48,7 @@ Data Source: http://insideairbnb.com/get-the-data.html
 
 2. Mi Familia
 
-3. My mentor Mas Khumaeni (best mentor ever)
+3. My mentor Mas Khumaeni (best mentor)
 
 4. My fellow Purwadhika brothers & sisters 
 
