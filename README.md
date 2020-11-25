@@ -13,10 +13,10 @@ In order to optimizing business expansion process, it is bigger size of accommod
 
 ## Business Question
 
-- In which areas are the most potential to  expand this business?
+- In which areas are the most potential to  expand this business category?
 - Are some features having impacts to the accommodation price?
 - Which type of room are most to be found in each neighbourhood group?
-- Is the neighbourhood of the most expensive accommodation located in the same as its neighbourhood group (district) ?
+- Is the neighbourhood with the most expensive accommodation located in the same as its neighbourhood group (district) ?
 - Does the sightseeing area have impact on the price and accommodations distribution?
 
 
@@ -42,7 +42,6 @@ Data Source: http://insideairbnb.com/get-the-data.html
 
 
 ## Shout out and Biggest Credit to them, who have been very supportive:
-
 
 1. God Almighty
 
