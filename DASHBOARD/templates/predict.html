@@ -1,0 +1,148 @@
+{% extends 'index.html' %} {% block content %}
+<center>
+        <br>
+        <h3><b>Accommodations</b></h3>
+        <p>Several examples of our existed accommodations </p>
+        <div class='table-bordered' style='overflow: auto; height: 400px; width: 75%; margin:0 auto'>
+            <table>
+            {% for table in tables %}
+                {{titles[loop.index]}}
+                {{ table|safe }}
+            {% endfor %}
+            </table>
+        </div>
+    
+        <form method="POST" action="http://localhost:5000/result">
+            <br>
+            <h3><b>New Guest Price Suggestion</b></h3>
+            <p>Please insert following information below.</p>
+            <br>
+            <div class="input-group mb-3" style="width: 500px">
+                <span class="input-group-text" style="width: 500px">How many persons?</span>
+                <input type="number" name="accommodates" step="0.1" 
+                min="0" max="1000000" style="width: 500px" id="accommodates" 
+                class="form-control" required=True />
+            </select>
+            </div>
+             <div class="input-group mb-3" style="width: 500px">
+                <span class="input-group-text" style="width: 500px">Bedrooms:</span>
+                <input type="number" name="bedrooms" step="0.01" 
+                min="0" max="1000000" style="width: 500px" id="bedrooms" 
+                class="form-control" required=True />
+            </select>
+            </div>
+            <div class="input-group mb-3" style="width: 500px">
+                <span class="input-group-text" style="width: 500px">Beds:</span>
+                <input type="number" name="beds" step="0.01" 
+                min="0" max="1000000" style="width: 500px" id="beds" 
+                class="form-control" required=True />
+            </select>
+            </div>
+            <div class="input-group mb-3" style="width: 500px">
+                <span class="input-group-text" style="width: 500px">Bathrooms:</span>
+                <input type="number" name="bathrooms" step="0.01" 
+                min="0" max="1000000" style="width: 500px" id="bathrooms" 
+                class="form-control" required=True />
+            </select>
+            </div>
+            <div class="input-group mb-3" style="width: 500px">
+                <span class="input-group-text" style="width: 500px">Total Amenities:</span>
+                <input type="number" name="amenities" step="0.01" 
+                min="0" max="1000000" style="width: 500px" id="amenities" 
+                class="form-control" required=True />
+            </select>
+            </div>
+            <div class="input-group mb-3" style="width: 500px">
+                <span class="input-group-text" style="width: 500px">Response rate:</span>
+                <input type="number" name="host_response_rate" step="0.01" 
+                min="0" max="1000000" style="width: 500px" id="host_response_rate" 
+                class="form-control" required=True/>
+            </select>
+            </div>            
+            <div class="input-group mb-3" style="width: 500px">
+                <span class="input-group-text" style="width: 500px">How many place do you have?</span>
+                <input type="number" name="calculated_host_listings_count" step="0.01" 
+                min="0" max="1000000" style="width: 500px" id="calculated_host_listings_count" 
+                class="form-control" required=True />
+            </select>
+            </div>
+            <div class="input-group mb-3" style="width: 500px">
+                <span class="input-group-text" style="width: 500px">How many days available in a year:</span>
+                <input type="number" name="availability_365" step="0.01" 
+                min="0" max="1000000" style="width: 500px" id="availability_365" 
+                class="form-control" required=True />
+            </select>
+            </div>   
+            <div class="input-group mb-3" style="width: 500px">
+                <span class="input-group-text" style="width: 500px">Scores Rating:</span>
+                <input type="number" name="review_scores_rating" step="0.01" 
+                min="0" max="1000000" style="width: 500px" id="review_scores_rating" 
+                class="form-control" required=True />
+            </select>
+            </div>
+            <div class="input-group mb-3" style="width: 500px">
+                <span class="input-group-text" style="width: 500px">Minimum Nights:</span>
+                <input type="number" name="minimum_nights" step="0.01" 
+                min="0" max="1000000" style="width: 500px" id="minimum_nights" 
+                class="form-control" required=True />
+            </select>
+            </div>
+            <div class="input-group mb-3" style="width: 500px">
+                <span class="input-group-text" style="width: 500px">Neighbourhood Group:</span>
+                <select name="neighbourhood_group" style="width: 250px" class="form-control" required="required">
+                <option value="Charlottenburg-Wilm.">Charlottenburg-Wilm.</option>
+                <option value="Friedrichshain-Kreuzberg">Friedrichshain-Kreuzberg</option>
+                <option value="Lichtenberg">Lichtenberg</option>
+                <option value="Marzahn - Hellersdorf">Marzahn - Hellersdorf</option>
+                <option value="Mitte">Mitte</option>
+                <option value="Neukölln">Neukölln</option>
+                <option value="Pankow">Pankow</option>
+                <option value="Reinickendorf">Reinickendorf</option>
+                <option value="Spandau">Spandau</option>
+                <option value="Steglitz - Zehlendorf">Steglitz - Zehlendorf</option>
+                <option value="Treptow - Köpenick">Treptow - Köpenick</option>
+                <option value="Tempelhof - Schöneberg">Tempelhof - Schöneberg</option>
+                <option disabled selected hidden>e.g. Mitte, Lichtenberg, etc.</option>
+            </select>
+            </div>
+            <div class="input-group mb-3" style="width: 500px">
+                <span class="input-group-text" style="width: 500px">Instant booking ?</span>
+                <select name="instant_bookable_encode" style="width: 250px" class="form-control" required="required">
+                    <option value="1">Yes</option>
+                    <option value="0">No</option>
+            </select>
+            </div>
+            <div class="input-group mb-3" style="width: 500px">
+                <span class="input-group-text" style="width: 500px">Are you superhost ?</span>
+                <select name="host_is_superhost_encode" style="width: 250px" class="form-control" required="required">
+                    <option value="1">Yes</option>
+                    <option value="0">No</option>
+            </select>
+            </div>
+            <div class="input-group mb-3" style="width: 500px">
+                <span class="input-group-text" style="width: 500px">Property type?</span>
+                <select name="property_type" style="width: 250px" class="form-control" required="required">
+                    <option value="Entire property">Entire Property</option>
+                    <option value="Other">Other</option>
+                    <option value="Private room">Private Room</option>
+                    <option value="Shared room">Shared Room</option>
+            </select>
+            </div>
+            <div class="input-group mb-3" style="width: 500px">
+                <span class="input-group-text" style="width: 500px">Room type ?</span>
+                <select name="room_type" style="width: 250px" class="form-control" required="required">
+                    <option value="Entire home/apt">Entire home/apt</option>
+                    <option value="Hotel room">Hotel room</option>
+                    <option value="Private room">Private Room</option>
+                    <option value="Shared room">Shared Room</option>
+            </select>
+            </div>
+            
+
+            <button type="submit" style="background-color:pink; color: rgb(8, 8, 8)" class="btn btn-info btn-lg">Price Prediction</button>
+        </form>
+        <br>
+    </center>
+    {% endblock %}
+
+</html>

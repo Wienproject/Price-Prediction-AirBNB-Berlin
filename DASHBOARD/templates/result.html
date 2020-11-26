@@ -1,0 +1,41 @@
+{% extends 'index.html' %} {% block content %}
+<center>
+    <div class="p1">
+        <b>Price Suggestion</b>
+    </div>
+    <br>
+    <div class="container">
+        <b>Host Response Rate: </b> {{host_response_rate}}<br>
+        <b>Day availability per year: </b> {{availability_365}}<br>
+        <b>Accommodates : </b> {{accommodates}}<br>
+        <b>Total bedrooms : </b> {{bedrooms}}<br>
+        <b>Total beds : </b> {{beds}}<br>
+        <b>Minimum Nights :</b> {{minimum_nights}}<br>
+        <b>Review Rating : </b> {{review_scores_rating}}<br>
+        <b>Total Amenities : </b> {{amenities}}<br>
+        <b>Scores Rating : </b> {{review_scores_rating}}<br>
+        <b>Host listing count : </b> {{calculated_host_listings_count}}<br>
+        <b>Total bathrooms : </b> {{bathrooms}}<br>
+        <b>Instant booking : </b> {{instant_bookable_encode}}<br>
+        <b>Superhost : </b> {{host_is_superhost_encode}}<br>
+        <b>Type of room : </b> {{room_type}}<br>
+        <b>Type of property : </b> {{property_type}}<br>
+        <b>Neighbourhood Group : </b> {{neighbourhood_group}}<br>
+        <br><br><br>
+        <b>Price Suggestion : </b> {{price_suggestion}}<br>
+
+    </div>
+    <hr>
+    <a href="/pred_lr" target="_self">
+        <button style="background-color: rgb(255, 90, 95); color: whitesmoke" class="btn btn-light">
+            Predict Again
+        </button>
+    </a>
+    <a href="/" target="_self">
+        <button style="background-color: rgb(255, 90, 95); color: whitesmoke" class="btn btn-light">
+            Back to Home
+        </button>
+    </a>
+</center>
+
+{% endblock %}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AirBNB | Price Suggestion</title>
+    <!-- agar dapat menggunakan class bootstrap secara offline -->
+    <link rel="stylesheet" href="../static/bootstrap.css">
+
+    <!-- untuk dapat memunculkan chart dari plotly -->
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js"></script>
+
+    <!-- Untuk script update database -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+
+<body style="background-color:rgb(236, 179, 173);" class="container">
+   
+
+    <h1 class="text-center text-capitalize display-4 my-5">
+            <b>AirBNB Price Suggestion</b>
+    </h1>
+    
+    <img src = "http://www.travelgeekery.com/wp-content/uploads/2014/06/Airbnb-profile_new.jpg" alt = 'homepage' widht = 600 height="400" class = 'rounded mx-auto d-block'>
+    <br>
+    <br>
+    <p class = "text-center display-5 my-1">
+
+        Unforgettable trips start with Airbnb. Find adventures nearby or in faraway places and access unique homes, experiences, and places around the world.
+        <br>
+        The company was conceived after its founders rented out an air mattress in their living room, effectively turning their apartment into a bed and breakfast
+        <br>
+        Airbnb is a shortened version of its original name, AirBedandBreakfast.com.
+        <br><br><br>
+        Also, you can get a price suggestion, when you wanna become one of us !! 
+        <br><br><br><br>
+        Feel free to play it around the graphs and check the informations about selected informations !!
+    </p>
+    <br>
+    <!-- membuat menu navigasi untuk pindah halaman / tampilan plot -->
+    <ul class="nav nav-pills nav-fill">
+        
+        <li class="nav-item font-weight-bold">
+            <a class="nav-link text-dark lead border" href="{{url_for('index')}}">HOME</a>
+        </li>
+        <li class="nav-item font-weight-bold">
+            <a class="nav-link text-dark lead border" href="{{url_for('prediction')}}">Price Prediction</a>
+        </li>
+        
+        
+    </ul>
+
+
+    {% block content %} {% endblock %}
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
