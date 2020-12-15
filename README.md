@@ -9,7 +9,7 @@ Berlin is one of the most favourable city to visit in Europe. There are lot of t
 
 ## Problem Statement
 
-In order to optimizing business expansion process, it is bigger size of accommodation needed to fulfil long holiday school. At least entire room of apartment are demanded to fulfil this criteria. Entire House for Holiday Staycation are better and more suitable for modern big family, meanwhile for smaller family/group, entire apartament should be fine.
+In order to optimize the business expansion process, it is a bigger size of accommodation needed to fulfil long holiday school. At least an entire room of apartment is demanded to fulfil this criteria. Entire Houses for Holiday Staycation are better and more suitable for modern big families, meanwhile for smaller families/groups, the entire apartment should be fine.
 
 ## Business Question
 
